@@ -17,24 +17,6 @@
     "smooth-scrolling",
     "smooth",
     "angular",
-    "angular2",
-    "angular 2",
-    "angular4",
-    "angular 4",
-    "angular5",
-    "angular 5",
-    "angular6",
-    "angular 6",
-    "angular7",
-    "angular 7",
-    "angular8",
-    "angular 8",
-    "angular9",
-    "angular 9",
-    "angular10",
-    "angular 10",
-    "angular11",
-    "angular 11",
     "angular12",
     "angular 12"
   ],
@@ -59,7 +41,7 @@
     "url": "https://github.com/akaustav/ngx-scroll-to/issues"
   },
   "engines": {
-    "node": "^16.18.0",
+    "node": "^16",
     "yarn": ">=1.22.18"
   },
   "dependencies": {
