@@ -1,4 +1,4 @@
-# This is a fork from [@nicky-lenaers/ngx-scroll-to](https://github.com/nicky-lenaers/ngx-scroll-to) that adds support for Angular 12 ONLY. For other versions see the [compatibility table](#compatibility-table) below.
+# This is a fork from [@nicky-lenaers/ngx-scroll-to](https://github.com/nicky-lenaers/ngx-scroll-to) that adds support for Angular 12 ONLY. For other versions see the [Compatibility Table](#compatibility-table) below.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/2785350/28428760-ae908006-6d7a-11e7-92ec-174bec80740e.png">
@@ -73,40 +73,40 @@ Current Angular Version
 ## Installation
 Angular 12
 ```sh
-$ npm install @akaustav/ngx-scroll-to@'12'
+$ npm install @akaustav/ngx-scroll-to@12
 ```
 Angular 8 and 9
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'9'
+$ npm install @nicky-lenaers/ngx-scroll-to@9.0.0
 ```
 Angular 7
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'2'
+$ npm install @nicky-lenaers/ngx-scroll-to@2.0.0
 ```
 Angular 6
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'1'
+$ npm install @nicky-lenaers/ngx-scroll-to@1.1.1
 ```
 Angular <= 5.x
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'<1'
+$ npm install @nicky-lenaers/ngx-scroll-to@0.6.1
 ```
 
 ## Compatibility Table
 
-| **For Angular Version** | **Use**                                                                    |
-|-------------------------|----------------------------------------------------------------------------|
-| 14                      | `@nicky-lenaers/ngx-scroll-to@'14'` OR `@paulvmoreau/ngx-scroll-to@11.0.5` |
-| 13                      | `@nicky-lenaers/ngx-scroll-to@'13'`                                        |
-| 12                      | `@akaustav/ngx-scroll-to@'12'`                                             |
-| 11                      | `@paulvmoreau/ngx-scroll-to@11.0.4`                                        |
-| 10                      | `@paulvmoreau/ngx-scroll-to@11.0.4`                                        |
-| 9                       | `@nicky-lenaers/ngx-scroll-to@'9'`                                         |
-| 8                       | `@nicky-lenaers/ngx-scroll-to@'9'`                                         |
-| 7                       | `@nicky-lenaers/ngx-scroll-to@'2'`                                         |
-| 6                       | `@nicky-lenaers/ngx-scroll-to@'1'`                                         |
-| 5                       | `@nicky-lenaers/ngx-scroll-to@'<1'`                                        |
-| 4                       | `@nicky-lenaers/ngx-scroll-to@'<1'`                                        |
+| **For Angular Version** | **Use**                                                                      |
+|-------------------------|------------------------------------------------------------------------------|
+| 14                      | `@nicky-lenaers/ngx-scroll-to@14.0.0` OR `@paulvmoreau/ngx-scroll-to@11.0.5` |
+| 13                      | `@nicky-lenaers/ngx-scroll-to@13.0.0`                                        |
+| 12                      | `@akaustav/ngx-scroll-to@12`                                                 |
+| 11                      | `@paulvmoreau/ngx-scroll-to@11.0.4`                                          |
+| 10                      | `@paulvmoreau/ngx-scroll-to@11.0.4`                                          |
+| 9                       | `@nicky-lenaers/ngx-scroll-to@9.0.0`                                         |
+| 8                       | `@nicky-lenaers/ngx-scroll-to@9.0.0`                                         |
+| 7                       | `@nicky-lenaers/ngx-scroll-to@^2.0.0`                                        |
+| 6                       | `@nicky-lenaers/ngx-scroll-to@^1.0.0`                                        |
+| 5                       | `@nicky-lenaers/ngx-scroll-to@0.6.1`                                         |
+| 4                       | `@nicky-lenaers/ngx-scroll-to@0.6.1`                                         |
 
 ## Setup
 ```typescript
