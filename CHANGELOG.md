@@ -1,3 +1,11 @@
+# [12.0.1](https://github.com/akaustav/ngx-scroll-to/compare/12.0.0...12.0.1) (2023-01-20)
+
+
+### Features
+
+* **ci:** widen engine compatibility ([#3](https://github.com/akaustav/ngx-scroll-to/pull/3)) ([c9edd4a](https://github.com/akaustav/ngx-scroll-to/commit/c9edd4a26511d4629dae68c7e735f4e27f6b5ef4))
+
+
 # [12.0.0](https://github.com/akaustav/ngx-scroll-to/compare/9.0.0...12.0.0) (2023-01-20)
 
 
@@ -284,6 +292,3 @@ After:
 
 
 ## 0.0.2 (2017-07-20)
-
-
-
