@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToModule } from '@akaustav/ngx-scroll-to';
 import { ContainerOffsetRoutingModule } from './container-offset-routing.module';
 import { ContainerOffsetComponent } from './container-offset.component';
 
