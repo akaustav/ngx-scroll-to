@@ -55,6 +55,12 @@ jobs:
   test_spec:
     <<: *job_defaults_browsers
     steps:
+      - run:
+          name: Present Working Directory
+          command: pwd
+      - run:
+          name: List Working Directory
+          command: ls -ahl
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
       - run:
