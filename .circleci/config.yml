@@ -84,9 +84,9 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test_spec:
-          requires:
-            - build
       - lint:
           requires:
             - build
+      - test_spec:
+          requires:
+            - lint
