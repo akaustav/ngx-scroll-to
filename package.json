@@ -1,6 +1,6 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to-demo",
-  "description": "Demo Application for @nicky-lenaers/ngx-scroll-to package.",
+  "name": "@akaustav/ngx-scroll-to-demo",
+  "description": "Demo Application for @akaustav/ngx-scroll-to package.",
   "version": "9.0.0",
   "license": "MIT",
   "scripts": {
@@ -14,18 +14,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "copy:readme": "copyfiles README.md ./dist/ngx-scroll-to",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "github-releaser": "conventional-github-releaser -p angular -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "github-releaser": "conventional-github-releaser -p angular",
     "lib:package": "yarn build && yarn copy:readme && cd ./dist/ngx-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
     "lib:publish": "cd ./dist/ngx-scroll-to && yarn publish --access=public",
-    "tags": "yarn tag list @nicky-lenaers/ngx-scroll-to",
+    "tags": "yarn tag list @akaustav/ngx-scroll-to",
     "prepare": "husky install"
   },
   "private": false,
   "contributors": [
     {
       "name": "Robbert van Caem"
+    },
+    {
+      "name": "Ameet Kaustav"
     }
   ],
   "author": {
@@ -34,46 +37,46 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicky-lenaers/ngx-scroll-to.git"
+    "url": "git+https://github.com/akaustav/ngx-scroll-to.git"
   },
-  "homepage": "https://github.com/nicky-lenaers/ngx-scroll-to#readme",
+  "homepage": "https://github.com/akaustav/ngx-scroll-to#readme",
   "bugs": {
-    "url": "https://github.com/nicky-lenaers/ngx-scroll-to/issues"
+    "url": "https://github.com/akaustav/ngx-scroll-to/issues"
   },
   "dependencies": {
-    "@angular/animations": "~13.3.11",
-    "@angular/common": "~13.3.11",
-    "@angular/compiler": "~13.3.11",
-    "@angular/core": "~13.3.11",
-    "@angular/forms": "~13.3.11",
-    "@angular/platform-browser": "~13.3.11",
-    "@angular/platform-browser-dynamic": "~13.3.11",
-    "@angular/router": "~13.3.11",
+    "@angular/animations": "~12.2.17",
+    "@angular/common": "~12.2.17",
+    "@angular/compiler": "~12.2.17",
+    "@angular/core": "~12.2.17",
+    "@angular/forms": "~12.2.17",
+    "@angular/platform-browser": "~12.2.17",
+    "@angular/platform-browser-dynamic": "~12.2.17",
+    "@angular/router": "~12.2.17",
     "rxjs": "~7.5.7",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.8"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.9",
-    "@angular-eslint/builder": "^13.5.0",
-    "@angular-eslint/eslint-plugin": "^13.5.0",
-    "@angular-eslint/eslint-plugin-template": "^13.5.0",
-    "@angular-eslint/schematics": "^13.5.0",
-    "@angular-eslint/template-parser": "^13.5.0",
-    "@angular/cli": "~13.3.9",
-    "@angular/compiler-cli": "~13.3.11",
-    "@angular/language-service": "~13.3.11",
+    "@angular-devkit/build-angular": "~12.2.17",
+    "@angular-eslint/builder": "^12.7.0",
+    "@angular-eslint/eslint-plugin": "^12.7.0",
+    "@angular-eslint/eslint-plugin-template": "^12.7.0",
+    "@angular-eslint/schematics": "^12.7.0",
+    "@angular-eslint/template-parser": "^12.7.0",
+    "@angular/cli": "~12.2.17",
+    "@angular/compiler-cli": "~12.2.17",
+    "@angular/language-service": "~12.2.17",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-angular": "^17.1.0",
     "@cypress/schematic": "^2.2.0",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.11.45",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
-    "@typescript-eslint/parser": "^5.40.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "conventional-changelog-cli": "^2.2.2",
     "conventional-github-releaser": "^3.1.5",
     "copyfiles": "^2.4.1",
-    "eslint": "^8.25.0",
+    "eslint": "^7.26.0",
     "husky": "^8.0.1",
     "jasmine-core": "~4.4.0",
     "karma": "~6.4.1",
@@ -81,12 +84,12 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.0.0",
-    "ng-packagr": "^13.3.1",
-    "typescript": "~4.6.4",
+    "ng-packagr": "^12.2.7",
+    "typescript": "~4.3.5",
     "cypress": "^10.10.0"
   },
   "engines": {
-    "node": ">=16.18.0",
-    "yarn": ">=1.22.19"
+    "node": "^16.18.0",
+    "yarn": ">=1.22.18"
   }
 }

@@ -6,7 +6,7 @@
   <p>
     A simple Angular 4+ plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app. Works for <strong>Angular 4+</strong>, both <strong>AoT</strong> and <strong>SSR</strong>. No dependencies.
   </p>
-  <strong>Support for Angular 9!</strong>
+  <strong>Support for Angular 12!</strong>
   <br/>
   <br/>
 </div>
@@ -105,9 +105,9 @@ Current Angular Version
 [![npm version](https://img.shields.io/npm/v/%40angular%2Fcore.svg?style=flat-square)](https://www.npmjs.com/~angular)  
 
 ## Installation
-Angular 13
+Angular 12
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to
+$ npm install @akaustav/ngx-scroll-to@'12'
 ```
 Angular 8 and 9
 ```sh
@@ -129,7 +129,7 @@ $ npm install @nicky-lenaers/ngx-scroll-to@'<1'
 ## Setup
 ```typescript
 ...
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToModule } from '@akaustav/ngx-scroll-to';
 ...
 
 @NgModule({
@@ -188,7 +188,7 @@ Besides scrolling to a specific element, it is also possible to scroll a given o
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@akaustav/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -218,7 +218,7 @@ Just like with the Directive, the Service can be used to scroll to an offset onl
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@akaustav/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -239,7 +239,7 @@ export class MyService {
 ## Advanced Usage - Directive
 **my.component.ts**
 ```typescript
-import { ScrollToAnimationEasing, ScrollToEvent, ScrollToOffsetMap } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToAnimationEasing, ScrollToEvent, ScrollToOffsetMap } from '@akaustav/ngx-scroll-to';
 
 @Component({
   selector: 'my-component',
@@ -316,7 +316,7 @@ export class MyComponent {
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@akaustav/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -389,7 +389,7 @@ In some occasions, one might misspell a target or container selector string. Eve
 **faulty.service.ts**
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService } from '@akaustav/ngx-scroll-to';
 
 @Injectable()
 export class FaultyService {

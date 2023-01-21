@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { OffsetOnlyRoutingModule } from './offset-only-routing.module';
 import { OffsetOnlyComponent } from './offset-only.component';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToModule } from '@akaustav/ngx-scroll-to';
 
 @NgModule({
   imports: [
